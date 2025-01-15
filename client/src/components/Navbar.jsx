@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="">  
-      <ul style={styles.navLinks}>
+    <nav className=" p-5 m-2 ">  
+      <ul style={styles.navLinks} className="gap-10">
         <li><Link to="/" style={styles.link}>Home</Link></li>
         <li><Link to="/about" style={styles.link}>About Me</Link></li>
         <li><Link to="/blogs" style={styles.link}>Blogs</Link></li>
+        <li><Link to="/contact" style={styles.link}>Contact</Link></li>
       </ul>
     </nav>
   );
