@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className=" p-5 m-2 ">  
+    <nav className=" p-5 m-2  ">  
       <ul style={styles.navLinks} className="gap-10">
         <li><Link to="/" style={styles.link}>Home</Link></li>
         <li><Link to="/about" style={styles.link}>About Me</Link></li>
@@ -21,7 +21,7 @@ const styles = {
     padding: "1rem 2rem",
     backgroundColor: "#333",
     color: "#fff",
-    
+
     
   },
   navLinks: { display: "flex", listStyleType: "none", margin: 0, padding: 0 },

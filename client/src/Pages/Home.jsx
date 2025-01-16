@@ -5,30 +5,20 @@ import Navbar from '../components/Navbar'
 import Homebody from '../components/Homebody'
 
 function home() {
-  const [posts, setPosts] = useState([]);
-
- useEffect(() => {
-    fetch("http://localhost:5000/api/posts")
-      .then((res) => res.json())
-      .then((data) => setPosts(data));
-  }, []);
   
   return (
-    
       
      <div className='w-full bg-stone-400 h-screen'>
      
-      <div className=' h-18 w-25  p-6 float-right flex'>
-       <Navbar/>
+      <div className='w-full bg-stone-400 h-[90px]'>
+        <div className=' h-[90px] float-right bg-gray-300 p-6 flex'>
+         <Navbar/>
      </div>
-       <div className='bg-white'>
+      </div>
+       <div className='bg-white mt-6'>
         <Homebody/>
        </div>
      </div>
-       
-    
   )
 }
-
-
 export default home
