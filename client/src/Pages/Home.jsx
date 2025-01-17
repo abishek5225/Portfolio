@@ -15,7 +15,7 @@ function home() {
          <Navbar/>
      </div>
       </div>
-       <div className='bg-white mt-6'>
+       <div className='bg-white mt-6 h-[660px]'>
         <Homebody/>
        </div>
      </div>
