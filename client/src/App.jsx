@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Routes>
           
-          <Route path = "/home" element={<Home/>} />
+          <Route path = "/" element={<Home/>} />
           <Route path="/blog" element={<BlogPost/>} />
           <Route path= "/create" element={<CretePost/>} />
         </Routes>

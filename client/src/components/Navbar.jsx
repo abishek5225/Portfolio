@@ -2,34 +2,24 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className=" p-5 m-2  ">  
-      <ul style={styles.navLinks} className="gap-10">
-        <li><Link to="/" style={styles.link}>Home</Link></li>
-        <li><Link to="/about" style={styles.link}>About Me</Link></li>
-        <li><Link to="/blogs" style={styles.link}>Blogs</Link></li>
-        <li><Link to="/contact" style={styles.link}>Contact</Link></li>
-      </ul>
-    </nav>
+    <div className="h-24 w-full bg-gray-50">
+      <nav className="bg-white shadow-md">
+        <div className="max-w-screen-lg mx-auto px-6 lg:px-16 flex justify-between items-center py-4">
+          {/* Logo */}
+          <a href="#" className="textxl font-bold text-gray-800">Personal blogs</a>
+
+          {/* links (hidden in mobile) */}
+          <div className="hidden lg:flex space-x-8">
+            <a href="home" className="text-gray-600 hover:text-black">Home</a>
+            <a href="home" className="text-gray-600 hover:text-black">Home</a>
+            <a href="home" className="text-gray-600 hover:text-black">Home</a>
+            <a href="home" className="text-gray-600 hover:text-black">Home</a>
+          </div>
+        </div>
+      </nav>
+    </div>
   );
 }
 
-const styles = {
-  navbar: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "1rem 2rem",
-    backgroundColor: "#333",
-    color: "#fff",
-
-    
-  },
-  navLinks: { display: "flex", listStyleType: "none", margin: 0, padding: 0 },
-  link: {
-    marginLeft: "1rem",
-    textDecoration: "none",
-    color: "#fff",
-  },
-};
 
 export default Navbar;
