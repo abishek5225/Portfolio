@@ -8,17 +8,14 @@ function home() {
   
   return (
       
-     <div className='w-full bg-stone-400 h-screen'>
      
-      <div className='w-full bg-stone-400 h-[90px]'>
-        <div >
-         <Navbar/>
-     </div>
-      </div>
-       <div className='bg-white mt-6 h-[660px]'>
+     <div>
+        <Navbar/>
         <Homebody/>
-       </div>
      </div>
+     
   )
 }
+
+
 export default home
