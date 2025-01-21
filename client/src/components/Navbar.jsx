@@ -58,7 +58,7 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        {/* Mobile menu */}
+        
          {/* Mobile Menu */}
       <div
         className={`bg-gray-100 lg:hidden ${
