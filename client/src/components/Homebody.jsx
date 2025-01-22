@@ -27,7 +27,7 @@ function Homebody() {
     <div class="flex justify-center lg:justify-end">
       <img
         src={img1}
-        alt="Sofia Franco"
+        alt="my image"
         class="rounded-lg shadow-lg max-w-full w-64 lg:w-96 object-cover"
       />
     </div>

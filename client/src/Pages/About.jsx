@@ -1,5 +1,6 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
+import img1 from '../assets/images/img1.JPG'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           This is<span className="text-black font-bold"> me</span>
         </h1>
       </div>
+      
 
       {/* About Me Section */}
       <div className="py-12 px-6 max-w-4xl mx-auto">
@@ -31,14 +33,9 @@ Feel free to reach out—I’d love to collaborate or discuss new projects!
           <h2 className="text-2xl font-semibold mb-6">Skills</h2>
           <div className="flex flex-wrap gap-4">
             {[
-              "Content Strategy",
+              "Web Development",
               "Writing",
-              "Campaign Management",
-              "Branding",
-              "Social Media",
-              "Events Content",
-              "Fundraising",
-              "Creative Initiatives",
+              "Problem Solving",
             ].map((skill, index) => (
               <div
                 key={index}

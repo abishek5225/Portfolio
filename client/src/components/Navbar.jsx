@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import React, { useState} from "react";
+import Aboutme from "../Pages/About"
 
 
 function Navbar() {
@@ -78,7 +79,9 @@ function Navbar() {
           Contact
         </Link>
       </div>
+
       </nav>
+      
     
   );
 }
