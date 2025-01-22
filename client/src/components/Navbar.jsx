@@ -1,6 +1,7 @@
 import {  Link } from "react-router-dom";
 import React, { useState} from "react";
 import Aboutme from "../Pages/About"
+import Login from "../components/LoginSignup"
 
 
 function Navbar() {
@@ -37,6 +38,10 @@ function Navbar() {
           <a href="/blogs" className="text-gray-600 hover:text-black">
             Blogs
           </a>
+          <a href="/login" className="text-gray-600 hover:text-black">
+            Login
+          </a>
+          
         </div>
           {/* Mobile menu button */}
           <button 
@@ -77,6 +82,9 @@ function Navbar() {
         </Link>
         <Link to="/contact" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
           Contact
+        </Link>
+        <Link to="/login" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
+          login
         </Link>
       </div>
 
