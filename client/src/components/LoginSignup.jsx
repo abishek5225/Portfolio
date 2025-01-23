@@ -11,11 +11,11 @@ function LoginSignup() {
   const handleLogin = (e) => {
     e.preventDefault();
     // Dummy admin credentials (replace with API call later)
-    const adminCredentials = { username: "admin", password: "admin123" };
+    const adminCredentials = { username: "admin", password: "admin" };
 
     if (username === adminCredentials.username && password === adminCredentials.password) {
       localStorage.setItem("isLoggedIn", true); // Save login state
-      navigate("/admin"); // Redirect to admin dashboard
+      navigate("/Admin"); // Redirect to admin dashboard
     } else {
       setError("Invalid username or password");
     }
