@@ -6,11 +6,10 @@ const cors = require('cors');
 app.use(cors());
 
 
-
-
 let blogs = [
   { id: 1, title: "Sample Blog 1", content: "Content of Blog 1", views: 120 },
   { id: 2, title: "Sample Blog 2", content: "Content of Blog 2", views: 95 },
+  {id : 3, title: "Sample Blog 3", content: "Content of Blog 3", views: 100}
 ];
 
 // Fetch all blogs
