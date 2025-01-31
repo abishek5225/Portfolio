@@ -1,7 +1,6 @@
 import {  Link } from "react-router-dom";
 import React, { useState} from "react";
 import Aboutme from "../Pages/About"
-import Login from "../components/LoginSignup"
 
 
 function Navbar() {
@@ -28,18 +27,18 @@ function Navbar() {
         <div></div>
 
         {/* Links (hidden in mobile) */}
-        <div className="hidden lg:flex space-x-8 mt-8 text-xl">
+        <div className="hidden lg:flex space-x-8 mt-8 text-xl ">
           <a href="/" className="text-gray-600 hover:text-black">
             Home
           </a>
           <a href="/about" className="text-gray-600 hover:text-black">
             About me
           </a>
-          <a href="/blogs" className="text-gray-600 hover:text-black">
-            Blogs
+          <a href="/cv" className="text-gray-600 hover:text-black">
+            CV
           </a>
-          <a href="/login" className="text-gray-600 hover:text-black">
-            Login
+          <a href="/contact" className="text-gray-600 hover:text-black">
+            Contact me
           </a>
           
         </div>
@@ -77,15 +76,13 @@ function Navbar() {
         <Link to="/about" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
           About Me
         </Link>
-        <Link to="/blogs" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
-          Blogs
+        <Link to="/cv" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
+         CV
         </Link>
         <Link to="/contact" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
           Contact
         </Link>
-        <Link to="/login" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
-          login
-        </Link>
+        
       </div>
 
       </nav>

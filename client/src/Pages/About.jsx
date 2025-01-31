@@ -1,10 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 import img1 from '../assets/images/img1.JPG'
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <div className="h-[800px] bg-white text-gray-800">
+      <Navbar />
       {/* Hero Section */}
       <div className="bg-yellow-400  text-black items-center w-[300px] h-[90px] mt-7 lg: ">
         <h1 className="text-5xl text-center justify-center items-center ">
@@ -29,16 +31,6 @@ export default function Home() {
 Feel free to reach out—I’d love to collaborate or discuss new projects!</p>
       </div>
       
-
-      
-
-      {/* CTA Section */}
-      <div className=" bg-gray-200 text-center h-[100px]">
-        
-        <button className="mt-6 px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition duration-300">
-          See Full CV
-        </button>
-      </div>
     </div>
   );
 }
