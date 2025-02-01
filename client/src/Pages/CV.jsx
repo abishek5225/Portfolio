@@ -8,7 +8,7 @@ function CV() {
         <Nav className='' />
       {/* Header Section */}
       <div className='w-full'>
-        <div className=" w-52 h-24 bg-yellow-400 flex items-center pl-8 mt-10 lg:mt-20 lg:w-[700px] lg:h-40">
+        <div className=" w-52 h-24 bg-yellow-300 flex items-center pl-8 mt-10 lg:mt-20 lg:w-[700px] lg:h-40">
         <h1 className="text-6xl font-bold mb-24 lg:mb-36 lg:text-9xl">CV</h1>
       </div>
       </div>
@@ -40,12 +40,11 @@ function CV() {
       </div>
       <div className="h-[500px]">
     <div className='w-full '>
-        <div className=" w-52 h-24 bg-yellow-400  items-center pl-8 mt-10 lg:w-[550px] lg:h-40">
+        <div className=" w-52 h-24 bg-yellow-300  items-center pl-8 mt-10 lg:w-[550px] lg:h-40">
         <h1 className="text-5xl pl-10 font-bold">Skills</h1>
-        <div className='w-[300px] mt-24 lg:w-[550px]'>
-          <SkillsSlider  />
-          
-        </div>
+      </div>
+      <div className='bg-black lg:hidden'>
+        <SkillsSlider />
       </div>
       </div>
       </div>
