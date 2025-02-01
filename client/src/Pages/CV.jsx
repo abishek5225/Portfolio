@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Navbar'
+import SkillsSlider from '../components/SkillsSlider'
 
 function CV() {
   return (
@@ -37,12 +38,13 @@ function CV() {
         </p>
         </div>
       </div>
-      <div className="">
-    <div className='w-full'>
-        <div className=" w-52 h-24 bg-yellow-400 flex items-center pl-8 mt-10 lg:w-[550px] lg:h-40">
+      <div className="h-[500px]">
+    <div className='w-full '>
+        <div className=" w-52 h-24 bg-yellow-400  items-center pl-8 mt-10 lg:w-[550px] lg:h-40">
         <h1 className="text-5xl pl-10 font-bold">Skills</h1>
-        <div>
-
+        <div className='w-[300px] mt-24 lg:w-[550px]'>
+          <SkillsSlider  />
+          
         </div>
       </div>
       </div>
