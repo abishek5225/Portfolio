@@ -1,6 +1,6 @@
 import {  Link } from "react-router-dom";
 import React, { useState} from "react";
-import Aboutme from "../Pages/About"
+
 
 
 function Navbar() {
@@ -31,9 +31,7 @@ function Navbar() {
           <a href="/" className="text-gray-600 hover:text-black">
             Home
           </a>
-          <a href="/about" className="text-gray-600 hover:text-black">
-            About me
-          </a>
+         
           <a href="/cv" className="text-gray-600 hover:text-black">
             CV
           </a>
@@ -73,9 +71,7 @@ function Navbar() {
         <Link to="/" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
           Home
         </Link>
-        <Link to="/about" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
-          About Me
-        </Link>
+        
         <Link to="/cv" className="block px-4 py-2 text-gray-600 hover:bg-gray-200">
          CV
         </Link>

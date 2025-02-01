@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./Pages/home"
-import Aboutme from "./Pages/About"
 import Cv from "./Pages/CV"
 
 
@@ -15,7 +14,6 @@ function App() {
         <Routes>
           
           <Route path = "/" element={<Home/>} />
-          <Route path="/about" element={<Aboutme/>} />
           <Route path="/cv" element={<Cv/>} />
         </Routes>
       </Router>
