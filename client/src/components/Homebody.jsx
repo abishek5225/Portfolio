@@ -1,6 +1,5 @@
 import React from 'react'
-import img1 from '../assets/images/img1.JPG'
-import Navbar from '../components/Navbar'
+
 
 function Homebody() {
   return (
@@ -25,8 +24,8 @@ function Homebody() {
 
     
     <div class="flex justify-center lg:justify-end">
-      <img
-        src={img1}
+      <img 
+        src="/images/img1.JPG"
         alt="my image"
         class="rounded-lg shadow-lg max-w-full w-64 lg:w-96 object-cover"
       />
