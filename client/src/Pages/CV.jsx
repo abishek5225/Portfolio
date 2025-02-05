@@ -43,7 +43,7 @@ function CV() {
         <div className=" w-52 h-24 bg-yellow-300  items-center pl-8 mt-10 lg:w-[550px] lg:h-40">
         <h1 className="text-5xl pl-10 font-bold">Skills</h1>
       </div>
-      <div className='bg-black lg:hidden'>
+      <div className='w-full h-24 justify-center'>
         <SkillsSlider />
       </div>
       </div>
