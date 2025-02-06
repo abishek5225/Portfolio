@@ -2,7 +2,7 @@ import React from 'react'
 
 function SkillsSlider() {
   return (
-    <div>SkillsSlider</div>
+    <div>Skills Slider</div>
   )
 }
 
