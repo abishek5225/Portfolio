@@ -11,7 +11,7 @@ function Navbar() {
   }
   return (
     
-      <nav className="bg-stone-300 shadow-md relative h-24">
+      <nav className="bg-stone-300 shadow-md relative h-24 w-full">
         
         
 

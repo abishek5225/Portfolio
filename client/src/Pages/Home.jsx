@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar'
 import Homebody from '../components/Homebody'
-import cv from '../Pages/CV'
 import Button from '../components/Button'
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 
 
@@ -47,8 +47,31 @@ Feel free to reach out—I’d love to collaborate or discuss new projects!</p>
       </Button>
       
     </div>
-   
+   <div>
+        
+        
+      </div>
+     <div className='mt-20'>
+       <section className="py-10 bg-gray-100 h-52 flex items-center justify-center">
+      <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg text-center lg:w-full">
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Me</h2>
+        <p className="text-gray-700 text-lg mb-6">Feel free to connect with me on social media!</p>
+        <div className="flex justify-center space-x-6">
+          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="text-gray-900 text-4xl hover:text-gray-600">
+            <FaGithub />
+          </a>
+          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-4xl hover:text-blue-500">
+            <FaLinkedin />
+          </a>
+          <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-4xl hover:text-blue-400">
+            <FaTwitter />
+          </a>
+        </div>
+      </div>
+    </section>
      </div>
+    </div>
+     
      
   )
 }
