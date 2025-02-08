@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar'
 import Homebody from '../components/Homebody'
 import Button from '../components/Button'
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 
 
@@ -26,28 +26,28 @@ function home() {
         {/* About Me Section */}
         <div className="py-12 px-6 max-w-4xl mx-auto">
           <p className="text-lg leading-relaxed text-justify">
-            Hi! I'm Abishek, a passionate full-stack developer from Dhulabari,
-            Nepal. I specialize in creating responsive, user-friendly websites
-            using technologies like React.js and Tailwind CSS. I enjoy solving
-            coding problems, fixing front-end issues, and turning creative ideas
-            into functional designs.
+            Hi, I’m Abishek, a Full-Stack Developer from Dhulabari, Nepal. I
+            specialize in building modern, fast, and scalable web applications
+            using React.js, Node.js, Express.js, and MySQL. With 3+ years of
+            experience, I have worked on front-end and back-end development,
+            creating responsive UIs, secure APIs, and database-driven
+            applications. I love problem-solving, optimizing performance, and
+            delivering high-quality, user-friendly websites.
           </p>
-
+          <br />
           <p className="text-justify ">
-            I'm currently expanding my skills in back-end development with
-            Node.js and exploring the exciting world of blockchain. My goal is
-            to deliver high-quality projects that leave a positive impact.
-            Outside of coding, I enjoy learning new concepts, exploring
-            innovative ideas, and connecting with like-minded individuals. Feel
-            free to reach out—I’d love to collaborate or discuss new projects!
+            Currently, I’m expanding my skills in blockchain and advanced
+            back-end technologies. I’m always open to exciting projects,
+            collaborations, and learning opportunities. Let’s connect and build
+            something great together!
           </p>
         </div>
         <Button></Button>
       </div>
       <div></div>
       <div className="mt-20">
-        <section className="py-10 bg-gray-100 h-52 flex items-center justify-center">
-          <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-lg text-center lg:w-full">
+        <section className="py-10 bg-stone-200 h-52 flex items-center justify-center">
+          <div className="max-w-3xl mx-auto bg-stone-100 p-8 rounded-2xl shadow-lg text-center lg:w-full">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
               Contact Me
             </h2>
@@ -64,12 +64,20 @@ function home() {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/yourlinkedin"
+                href="https://www.facebook.com/abishek.chaulagain5225"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-700 text-4xl hover:text-blue-500"
               >
-                <FaLinkedin />
+                <FaFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/abishek_chaulagain/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-fuchsia-500 text-4xl "
+              >
+                <FaInstagram />
               </a>
               <a
                 href="https://x.com/Abishek_098"

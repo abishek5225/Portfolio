@@ -19,9 +19,8 @@ const skills = [
 ];
 function Skills() {
   return (
-     <section className="py-10 bg-gray-100">
+     <section className="py-10 h-auto bg-gray-100">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">My Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center bg-white p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all">
