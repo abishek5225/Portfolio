@@ -25,7 +25,7 @@ function Homebody() {
     
     <div class="flex justify-center lg:justify-end">
       <img 
-        src="/images/img1.JPG"
+        src="/images/img2.JPG"
         alt="my image"
         class="rounded-lg shadow-lg max-w-full w-64 lg:w-96 object-cover"
       />
