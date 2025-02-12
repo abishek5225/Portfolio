@@ -3,7 +3,7 @@ import React from 'react'
 
 function Homebody() {
   return (
-    <div class="min-h-screen bg-stone-300  flex items-center justify-center ">
+    <div class="min-h-screen bg-zinc-100 flex items-center justify-center ">
       
   <div class="max-w-screen-lg mx-auto px-6 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
     

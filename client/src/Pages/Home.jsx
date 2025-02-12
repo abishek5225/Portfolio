@@ -11,7 +11,7 @@ import { FaGithub, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 function home() {
   
   return (
-    <div className="bg-stone-200">
+    <div className="bg-zinc-50">
       <Navbar />
       <Homebody />
       <div className="h-[700px] bg-stone-350 text-gray-800">
@@ -46,8 +46,8 @@ function home() {
       </div>
       <div></div>
       <div className="mt-20">
-        <section className="py-10 bg-stone-200 h-52 flex items-center justify-center">
-          <div className="max-w-3xl mx-auto bg-stone-100 p-8 rounded-2xl shadow-lg text-center lg:w-full">
+        <section className="py-10 bg-zinc-50 h-52 flex items-center justify-center">
+          <div className="max-w-3xl mx-auto bg-stone-200 p-8 rounded-2xl shadow-lg text-center lg:w-full">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">
               Contact Me
             </h2>

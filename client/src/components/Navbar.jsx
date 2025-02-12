@@ -10,7 +10,7 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <nav className="bg-stone-300 shadow-md relative h-28 w-full">
+    <nav className="bg-zinc-100 shadow-md relative h-28 w-full">
       {/* Logo at the far left corner */}
 
       <div className="absolute left-4 top-9 text-xl font-bold text-gray-800 lg:text-4xl"></div>
