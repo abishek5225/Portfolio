@@ -14,11 +14,11 @@ function Homebody() {
       <p class="text-2xl lg:text-3xl text-gray-600 mb-8">
         A <span class="bg-yellow-200 text-black px-1">Tech enthusiast</span>and Full Stack Developer.
       </p>
-      <h2 class="text-2l lg:text-3xl font-light mb-4">
+      <h2 class="text-2xl lg:text-3xl font-light mb-4">
         Looking <span class="italic">for</span> my next
         <span class="font-bold">opportunity</span> to make a <span class="font-bold">change</span>.
         <br />
-        <span class="text-yellow-500 font-bold">The digital way.</span>
+        <span class="text-yellow-500 font-bold text-2xl">The digital way.</span>
       </h2>
     </div>
 
