@@ -48,9 +48,7 @@ function home() {
       <div className="mt-20">
         <section className="py-10 bg-zinc-50 h-52 flex items-center justify-center">
           <div className="max-w-3xl mx-auto bg-stone-200 p-8 rounded-2xl shadow-lg text-center lg:w-full">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">
-              Contact Me
-            </h2>
+            
             <p className="text-gray-700 text-lg mb-6">
               Feel free to connect with me on social media!
             </p>

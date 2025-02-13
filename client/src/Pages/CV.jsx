@@ -103,11 +103,11 @@ function CV() {
           <section className="py-10 bg-gray-100 h-auto flex items-center justify-center">
             <div className="max-w-3xl mx-auto bg-gray-100 p-8 rounded-2xl shadow-lg">
               <p className="text-gray-700 text-lg leading-relaxed text-justify">
-                Tech Trends – Always excited to explore emerging technologies
+                  Always excited to explore emerging technologies
                 and how they impact the world.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed text-justify">
-                Neuroscience & Human Mind – Curious about how human brain works
+                Neuroscience – Curious about how human brain works
               </p>
             </div>
           </section>
