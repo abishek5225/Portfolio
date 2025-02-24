@@ -37,19 +37,7 @@ const Homebody = () => {
     },
   };
 
-  const imageContainerVariants = {
-    hidden: { opacity: 0, rotate: -5, x: 30 },
-    visible: {
-      opacity: 1,
-      rotate: 0,
-      x: 0,
-      transition: {
-        duration: 0.8,
-        ease: "easeOut",
-        delay: 0.3,
-      },
-    },
-  };
+  
 
   return (
     <div className="min-h-screen bg-zinc-100 flex items-center justify-center py-12">
@@ -117,7 +105,6 @@ const Homebody = () => {
           {/* Image - Right Side */}
           <motion.div
             className="flex justify-center lg:justify-end"
-            variants={imageContainerVariants}
             initial="hidden"
             animate="visible"
           >
