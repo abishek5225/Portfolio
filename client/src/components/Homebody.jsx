@@ -40,7 +40,7 @@ const Homebody = () => {
   
 
   return (
-    <div className="min-h-screen bg-zinc-100 flex items-center justify-center py-12">
+    <div className="min-h-screen bg-zinc-100 flex items-center justify-center py-12 lg:h-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content - Left Side */}
@@ -111,7 +111,7 @@ const Homebody = () => {
             <motion.div
               className="relative"
               whileHover={{ scale: 1.02 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.8 }}
             >
               <img
                 src="/images/img3.JPG"

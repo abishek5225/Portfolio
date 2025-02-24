@@ -46,7 +46,7 @@ const CV = () => {
         className="w-full bg-gray-50 py-12"
       >
         <div className="relative">
-          <div className="absolute inset-0 bg-yellow-300 w-60 h-32 transform lg:w-200" />
+          <div className="absolute inset-0 bg-yellow-300 mt-10 w-72 h-32 transform lg:w-200" />
           <div className="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
             <h1 className="text-6xl md:text-8xl font-bold text-gray-900">CV</h1>
           </div>
