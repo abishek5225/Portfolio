@@ -32,16 +32,11 @@ function Navbar() {
 
         {/* Links (hidden in mobile) */}
         <div className="hidden lg:flex space-x-8 mt-8 text-xl ">
-          <a href="/" className="text-gray-600 hover:text-black">
-            Home
-          </a>
+          <Link to="/"
+           className="text-gray-600 hover:text-black">Home</Link>
 
-          <a href="/cv" className="text-gray-600 hover:text-black">
-            CV
-          </a>
-          <a href="/contacts" className="text-gray-600 hover:text-black">
-            My Socials
-          </a>
+          <Link to="/cv"
+          className="text-gray-600 hover:text-black">CV</Link>
         </div>
         {/* Mobile menu button */}
         <button
@@ -81,12 +76,6 @@ function Navbar() {
           className="block px-4 py-2 text-gray-600 hover:bg-gray-200"
         >
           CV
-        </Link>
-        <Link
-          to="/contacts"
-          className="block px-4 py-2 text-gray-600 hover:bg-gray-200"
-        >
-          My Socials
         </Link>
       </div>
     </nav>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaJava } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaJava} from "react-icons/fa";
 import { SiTailwindcss, SiExpress, SiMysql } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -14,8 +14,9 @@ const skills = [
   { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
   { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
   { name: "Java", icon: <FaJava className="text-red-600" /> },
+  
   { name: "Database", icon: <FaDatabase className="text-purple-500" /> },
-  { name: "C#", icon: <TbBrandCSharp className="text-blue-700" /> }
+  { name: "C#", icon: <TbBrandCSharp className="text-blue-700" /> },
 ];
 function Skills() {
   return (

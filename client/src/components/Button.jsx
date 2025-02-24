@@ -6,7 +6,7 @@ const Button = () => {
   return (
     <StyledWrapper>
       <div className="btn-conteiner">
-        <a className="btn-content" href="#">
+        <a className="btn-content" href="/cv">
           <span className="btn-title"><Link to='/cv'>See Full CV</Link></span>
           <span className="icon-arrow">
             <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
