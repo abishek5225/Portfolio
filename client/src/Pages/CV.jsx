@@ -46,7 +46,7 @@ const CV = () => {
         className="w-full bg-gray-50 py-12"
       >
         <div className="relative">
-          <div className="absolute inset-0 bg-yellow-300 transform w-200" />
+          <div className="absolute inset-0 bg-yellow-300 w-60 h-32 transform lg:w-200" />
           <div className="relative max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
             <h1 className="text-6xl md:text-8xl font-bold text-gray-900">CV</h1>
           </div>
@@ -97,7 +97,7 @@ const CV = () => {
       <motion.section {...fadeIn} className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...slideIn} className="relative mb-12">
-            <div className="absolute inset-0 bg-yellow-300 transform -skew-y-3" />
+            <div className="absolute inset-0 bg-yellow-300 w-90 transform -skew-y-1" />
             <h2 className="relative text-4xl font-bold py-8 px-8">Skills</h2>
           </motion.div>
           <Skills />
@@ -108,7 +108,7 @@ const CV = () => {
       <motion.section {...fadeIn} className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...slideIn} className="relative mb-12">
-            <div className="absolute inset-0 bg-yellow-300 transform -skew-y-3" />
+            <div className="absolute w-90 inset-0 bg-yellow-300 transform -skew-y-1" />
             <h2 className="relative text-4xl font-bold py-8 px-8">Education</h2>
           </motion.div>
 
@@ -136,7 +136,7 @@ const CV = () => {
       <motion.section {...fadeIn} className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div {...slideIn} className="relative mb-12">
-            <div className="absolute inset-0 bg-yellow-300 transform -skew-y-3" />
+            <div className="absolute w-90 inset-0 bg-yellow-300 transform -skew-y-1 " />
             <h2 className="relative text-4xl font-bold py-8 px-8">Interests</h2>
           </motion.div>
 
