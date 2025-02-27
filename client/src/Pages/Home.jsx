@@ -48,47 +48,7 @@ function home() {
       </div>
       <div></div>
       <div className="mt-20">
-        <section className="py-10 bg-zinc-50 h-52 flex items-center justify-center">
-          <div className="max-w-3xl mx-auto bg-stone-200 p-8 rounded-2xl shadow-lg text-center lg:w-full">
-            <p className="text-gray-700 text-lg mb-6">
-              Feel free to connect with me on social media!
-            </p>
-            <div className="flex justify-center space-x-6">
-              <a
-                href="https://github.com/abishek5225"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-900 text-4xl hover:text-gray-600"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://www.facebook.com/abishek.chaulagain5225"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-700 text-4xl hover:text-blue-500"
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href="https://www.instagram.com/abishek_chaulagain/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-fuchsia-500 text-4xl "
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="https://x.com/Abishek_098"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 text-4xl hover:text-blue-400"
-              >
-                <FaTwitter />
-              </a>
-            </div>
-          </div>
-        </section>
+        
       </div>
     </div>
   );
