@@ -80,35 +80,6 @@ function Navbar() {
             </Link>
             */}
 
-            <div className="hidden sm:flex space-x-3">
-              <motion.a
-                href="https://github.com/abishek5225"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-indigo-600 transition-colors"
-                whileHover={{ scale: 1.1 }}
-              >
-                <FaGithub size={20} />
-              </motion.a>
-              <motion.a
-                href="https://linkedin.com/in/example"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-indigo-600 transition-colors"
-                whileHover={{ scale: 1.1 }}
-              >
-                <FaLinkedin size={20} />
-              </motion.a>
-              <motion.a
-                href="https://twitter.com/example"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-700 hover:text-indigo-600 transition-colors"
-                whileHover={{ scale: 1.1 }}
-              >
-                <FaTwitter size={20} />
-              </motion.a>
-            </div>
           </div>
 
           {/* Right side - Navigation links */}

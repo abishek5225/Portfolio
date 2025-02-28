@@ -129,8 +129,6 @@ const Homebody = () => {
               experiences
             </motion.p>
 
-            
-
             <motion.div
               className="flex flex-wrap gap-4 pt-4"
               variants={buttonVariants}
