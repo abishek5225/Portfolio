@@ -46,34 +46,7 @@ const Homebody = () => {
     },
   };
 
-  // Skills pill animation variants
-  const pillVariants = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: (custom) => ({
-      opacity: 1,
-      scale: 1,
-      transition: {
-        duration: 0.4,
-        delay: 0.4 + custom * 0.1,
-      },
-    }),
-    hover: {
-      y: -5,
-      transition: {
-        duration: 0.2,
-      },
-    },
-  };
-
-  // Skills array to display as pills
-  const skills = [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "MySQL",
-    "Tailwind CSS",
-    "Full Stack",
-  ];
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-sans">
