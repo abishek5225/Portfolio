@@ -14,9 +14,11 @@ import {
   FaLayerGroup,
   FaServer,
   FaJs,
+  
 } from "react-icons/fa";
-import { DiMysql, DiPostgresql, } from "react-icons/di";
-import { SiTailwindcss, SiExpress,  } from "react-icons/si";
+import { DiMysql, DiPostgresql } from "react-icons/di";
+import { SiTailwindcss, SiExpress } from "react-icons/si";
+
 
 // Define skills with proper data and categories
 const skills = [
@@ -71,7 +73,7 @@ const skills = [
   },
   {
     name: "JavaScript",
-    level: 85,
+    level: 90,
     category: "language",
     description: "Core language for web and application development",
     icon: <FaJs className="text-yellow-400" />,
@@ -85,10 +87,22 @@ const skills = [
   },
   {
     name: "Java",
-    level: 70,
+    level: 80,
     category: "language",
     description: "Object-oriented programming for enterprise apps",
     icon: <FaJava className="text-red-700" />,
+  },
+  {
+    name: "Csharp",
+    level: 85,
+    category: "language",
+    description: "Object-oriented programming ",
+  },
+  {
+    name: "C",
+    level: 80,
+    category: "language",
+    description: "A procedural language",
   },
   {
     name: "PostgreSQL",
@@ -97,7 +111,6 @@ const skills = [
     description: "Advanced open source relational database",
     icon: <DiPostgresql className="text-blue-600" />,
   },
-  
 ];
 
 // Group skills by category
