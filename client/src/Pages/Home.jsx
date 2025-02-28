@@ -13,7 +13,8 @@ function home() {
   return (
     <div className="bg-zinc-50">
       <Navbar />
-      <Homebody />    
+      <Homebody />  
+      
     </div>
   );
 }
