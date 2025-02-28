@@ -13,43 +13,7 @@ function home() {
   return (
     <div className="bg-zinc-50">
       <Navbar />
-      <Homebody />
-      <div className="h-[700px] bg-stone-350 text-gray-800">
-        <div className="bg-yellow-300 flex mt-20 text-black items-center w-[300px] h-[90px]  lg:w-[700px] lg:h-[150px] lg:pl-14 ">
-          <a href="about">
-            <h1 className="text-5xl text-center justify-center items-center ">
-              This is<span className="text-black font-bold"> me</span>
-            </h1>
-          </a>
-        </div>
-
-        {/* About Me Section */}
-        <div className="py-12 px-6 max-w-4xl mx-auto">
-          <p className="text-lg leading-relaxed text-justify">
-            Hi, I’m Abishek, a Full-Stack Developer from Dhulabari, Nepal. I
-            specialize in building modern, fast, and scalable web applications
-            using React.js, Node.js, Express.js, and MySQL. With 3+ years of
-            experience, I have worked on front-end and back-end development,
-            creating responsive UIs, secure APIs, and database-driven
-            applications. I love problem-solving, optimizing performance, and
-            delivering high-quality, user-friendly websites.
-          </p>
-          <br />
-          <p className="text-justify ">
-            Currently, I’m expanding my skills in blockchain and advanced
-            back-end technologies. I’m always open to exciting projects,
-            collaborations, and learning opportunities. Let’s connect and build
-            something great together!
-          </p>
-        </div>
-        <Link>
-          <Button></Button>
-        </Link>
-      </div>
-      <div></div>
-      <div className="mt-20">
-        
-      </div>
+      <Homebody />    
     </div>
   );
 }
