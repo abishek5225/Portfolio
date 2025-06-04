@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Nav from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
 
 const education = [
@@ -29,7 +29,7 @@ const interests = [
 const CV = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 font-sans">
-      <Nav />
+      <Navbar />
 
       {/* Hero Section */}
       <motion.div

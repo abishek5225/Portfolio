@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -75,7 +75,7 @@ function Navbar() {
           <div className="flex items-center space-x-4">
             {/*  
             
-            <Link to="/" className="font-bold text-2xl text-indigo-900">
+            <Link href="/" className="font-bold text-2xl text-indigo-900">
               AC
             </Link>
             */}
@@ -86,7 +86,7 @@ function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <motion.div whileHover="hover" variants={linkVariants}>
               <Link
-                to="/"
+                href="/"
                 className="text-gray-800 hover:text-indigo-600 font-medium"
               >
                 Home
@@ -94,7 +94,7 @@ function Navbar() {
             </motion.div>
             <motion.div whileHover="hover" variants={linkVariants}>
               <Link
-                to="/cv"
+                href="/cv"
                 className="text-gray-800 hover:text-indigo-600 font-medium"
               >
                 CV
@@ -149,14 +149,14 @@ function Navbar() {
           >
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
-                to="/"
+                href="/"
                 className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
-                to="/cv"
+                href="/cv"
                 className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
