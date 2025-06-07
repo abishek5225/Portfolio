@@ -284,10 +284,10 @@ const Homebody = () => {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Let's Build Something Amazing Together
+              Let's Connect
             </h2>
             <p className="text-xl text-indigo-200 max-w-3xl mx-auto leading-relaxed">
-              Ready to bring your ideas to life? I'm always excited to work on new projects and collaborate with fellow innovators.
+              I'm always open to new opportunities and collaborations. Whether you have a project in mind, want to discuss a potential partnership, or just want to say hello, I'd love to hear from you.
             </p>
           </motion.div>
 
