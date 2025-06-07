@@ -352,7 +352,7 @@ const Homebody = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05, y: -5 }}
-              href="mailto:abishek@example.com"
+              href="mailto:abishekchaulagain5225.com"
               className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-6 border border-white border-opacity-20 hover:bg-opacity-20 transition-all duration-300 text-center group"
             >
               <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-700 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -372,9 +372,7 @@ const Homebody = () => {
             viewport={{ once: true }}
             className="text-center mt-16"
           >
-            <p className="text-indigo-200 text-lg">
-              © 2024 Abishek Chaulagain. Crafted with ❤️ and lots of ☕
-            </p>
+            
           </motion.div>
         </div>
       </motion.section>
