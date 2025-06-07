@@ -115,7 +115,7 @@ const CV = () => {
               <div className="md:w-1/3 mt-8 md:mt-0">
                 <div className="relative w-64 h-64 mx-auto">
                   <img
-                    src="/images/img3.JPG"
+                    src="img3.JPG"
                     alt="Abishek Chaulagain"
                     className="w-full h-full object-cover rounded-full border-4 border-white shadow-2xl"
                   />
