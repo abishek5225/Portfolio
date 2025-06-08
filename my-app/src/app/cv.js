@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
 import { FaDownload, FaUser, FaGraduationCap, FaHeart, FaBriefcase, FaCode } from "react-icons/fa";
+import { FaCircleCheck } from "react-icons/fa6";
 
 const education = [
   {
@@ -34,7 +35,7 @@ const interests = [
   {
     title: "Neuroscience",
     description: "Curious about how the human brain works and its applications in AI",
-    icon: <FaHeart className="text-indigo-500" />,
+    icon: <FaCircleCheck className="text-indigo-500" />,
   },
 ];
 
@@ -377,10 +378,7 @@ const CV = () => {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                 What Drives Me
               </h2>
-              <div className="w-24 h-1 bg-indigo-500 mx-auto"></div>
-              <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
-                Beyond coding, these are the passions and interests that fuel my creativity and continuous learning.
-              </p>
+              
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
