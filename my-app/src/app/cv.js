@@ -43,14 +43,14 @@ const experience = [
     title: "Full-Stack Developer",
     company: "Freelance",
     period: "2021 - Present",
-    description: "Developing web applications using React.js, Node.js, and modern technologies. Focus on creating responsive, user-friendly interfaces and robust backend systems.",
-    technologies: ["React.js", "Node.js", "Express.js", "MySQL", "Tailwind CSS"],
+    description: "Developing web applications using React.js,Next.js, Node.js, and modern technologies. Focus on creating responsive, user-friendly interfaces and robust backend systems.",
+    technologies: ["React.js","Next.js" ,"Node.js", "Express.js", "MySQL", "Tailwind CSS"],
   },
   {
     title: "Web Developer",
     company: "Personal Projects",
     period: "2020 - 2021",
-    description: "Built various personal projects to enhance skills in web development, including portfolio websites and small business applications.",
+    description: "Built various personal projects to enhance skills in web development.",
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
   },
 ];
