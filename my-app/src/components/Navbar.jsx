@@ -100,6 +100,14 @@ function Navbar() {
                 CV
               </Link>
             </motion.div>
+            <motion.div whileHover="hover" variants={linkVariants}>
+              <Link
+                href="/blogs"
+                className="text-gray-800 hover:text-indigo-600 font-medium"
+              >
+                Blogs
+              </Link>
+            </motion.div>
           </div>
 
           {/* Mobile menu button */}
@@ -161,6 +169,13 @@ function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 CV
+              </Link>
+              <Link
+                href="/blogs"
+                className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blogs
               </Link>
             </div>
           </motion.div>

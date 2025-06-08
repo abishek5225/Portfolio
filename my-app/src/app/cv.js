@@ -29,12 +29,12 @@ const education = [
 const interests = [
   {
     title: "Emerging Technologies",
-    description: "Always excited to explore emerging technologies and their impact on the world",
+    description: "Always excited to explore emerging technologies.",
     icon: <FaCode className="text-indigo-500" />,
   },
   {
     title: "Neuroscience",
-    description: "Curious about how the human brain works and its applications in AI",
+    description: "Curious about how the human brain works.",
     icon: <FaCircleCheck className="text-indigo-500" />,
   },
 ];
