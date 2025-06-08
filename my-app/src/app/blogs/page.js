@@ -17,7 +17,7 @@ export default function BlogsPage() {
             My Blogs
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A space for sharing thoughts, stories, and insights on whatever sparks my curiosity.
+            A place where I share ideas, stories, and whatever catches my interest.
           </p>
           <div className="w-24 h-1 bg-indigo-500 mx-auto mt-6"></div>
         </div>

@@ -307,7 +307,7 @@ const Homebody = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2">GitHub</h3>
-              <p className="text-indigo-200 text-sm">View my projects</p>
+              <p className="text-indigo-300 text-sm">View my projects</p>
             </motion.a>
 
             <motion.a
@@ -325,7 +325,7 @@ const Homebody = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2">Twitter</h3>
-              <p className="text-indigo-200 text-sm">Follow me</p>
+              <p className="text-indigo-300 text-sm">Follow me</p>
             </motion.a>
 
             <motion.a
@@ -343,7 +343,7 @@ const Homebody = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2">Facebook</h3>
-              <p className="text-indigo-200 text-sm">Connect with me</p>
+              <p className="text-indigo-300 text-sm">Connect with me</p>
             </motion.a>
 
             <motion.a
@@ -361,7 +361,7 @@ const Homebody = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-indigo-200 text-sm">Get in touch</p>
+              <p className="text-indigo-300 text-sm">Get in touch</p>
             </motion.a>
           </div>
 
