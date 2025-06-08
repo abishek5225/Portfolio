@@ -372,7 +372,7 @@ const CV = () => {
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
               <span className="inline-block px-4 py-2 text-sm font-medium text-indigo-800 bg-indigo-100 rounded-full mb-4">
-                <FaHeart className="inline mr-2" />
+                
                 INTERESTS
               </span>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
