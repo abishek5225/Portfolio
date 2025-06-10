@@ -309,9 +309,7 @@ const CV = () => {
                 Academic Journey
               </h2>
               <div className="w-24 h-1 bg-indigo-500 mx-auto"></div>
-              <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
-                My educational foundation that shaped my technical expertise and problem-solving abilities.
-              </p>
+              
             </div>
 
             <div className="relative">
