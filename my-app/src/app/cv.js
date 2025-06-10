@@ -10,19 +10,16 @@ const education = [
     degree: "Bachelor of Computer Applications (BCA)",
     institution: "Mechi Multiple Campus",
     year: "2021 - Present",
-    description: "Focused on software development, database management, and web technologies.",
   },
   {
     degree: "Senior High School",
     institution: "Himalayan English Academy",
     year: "2019 - 2021",
-    description: "Completed with distinction in Science stream with focus on Mathematics and Computer Science.",
   },
   {
     degree: "High School",
     institution: "Parijat Public School",
     year: "2019",
-    description: "Foundation in core subjects with early exposure to computer programming.",
   },
 ];
 
@@ -353,10 +350,6 @@ const CV = () => {
 
                         <p className="text-lg text-indigo-600 font-medium">
                           {edu.institution}
-                        </p>
-
-                        <p className="text-gray-600 leading-relaxed">
-                          {edu.description}
                         </p>
                       </div>
                     </div>
