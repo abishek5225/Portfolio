@@ -216,11 +216,12 @@ const Homebody = () => {
                 viewport={{ once: true }}
                 className="text-gray-700 text-lg leading-relaxed"
               >
-                Results-driven Full-Stack Developer with 3+ years of experience
-                in designing, developing, and maintaining scalable web
-                applications. Proficient in React.js, Node.js, Express.js,
-                MySQL, and Tailwind CSS, with a strong focus on creating
-                efficient, secure, and user-friendly solutions.
+                I'm a curious person who loves exploring how things work.
+I spend a lot of my time working on different projects, especially in tech.
+I'm also interested in blockchain, crypto, and how decentralized systems are shaping the future.
+
+Beyond technology, I've always been fascinated by neuroscience.
+I enjoy reading about brain.
               </motion.p>
 
               <motion.p
