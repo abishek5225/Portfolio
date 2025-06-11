@@ -220,8 +220,7 @@ const Homebody = () => {
 I spend a lot of my time working on different projects, especially in tech.
 I'm also interested in blockchain, crypto, and how decentralized systems are shaping the future.
 
-Beyond technology, I've always been fascinated by neuroscience.
-I enjoy reading about brain.
+
               </motion.p>
 
               <motion.p
@@ -231,8 +230,8 @@ I enjoy reading about brain.
                 viewport={{ once: true }}
                 className="text-gray-700 text-lg leading-relaxed"
               >
-                Currently enhancing expertise in new technologies and advanced
-                back-end systems. Open to exciting projects and collaborations.
+               Beyond technology, I've always been fascinated by neuroscience.
+I enjoy reading about brain.
               </motion.p>
 
               <motion.div
