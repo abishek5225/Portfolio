@@ -100,7 +100,8 @@ const CV = () => {
                     View Profile
                   </a>
                   <a
-                    href="#"
+                    href="resume.pdf"
+                    download="abishek_resume.pdf"
                     className="px-6 py-3 rounded-lg bg-transparent border-2 border-white text-white font-medium hover:bg-white hover:bg-opacity-10 transition-colors"
                   >
                     <FaDownload className="inline mr-2" />
