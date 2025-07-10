@@ -231,7 +231,7 @@ I'm also interested in blockchain, crypto, and how decentralized systems are sha
                 className="text-gray-700 text-lg leading-relaxed"
               >
                Beyond technology, I've always been fascinated by neuroscience.
-I enjoy reading about brain.
+I enjoy reading about the brain.
               </motion.p>
 
               <motion.div
