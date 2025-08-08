@@ -105,13 +105,7 @@ const skills = [
     category: "language",
     description: "A procedural language",
   },
-  {
-    name: "PostgreSQL",
-    level: 75,
-    category: "database",
-    description: "Advanced open source relational database",
-    icon: <DiPostgresql className="text-blue-600" />,
-  },
+  
 ];
 
 // Group skills by category
